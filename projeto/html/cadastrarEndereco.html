@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.agrosys.com.br" type="image/png" />
+        <link rel="stylesheet" href="../css/config.css" />
+        <link rel="stylesheet" href="../css/cadastrarClientes.css" />
+        <link rel="stylesheet" href="../css/home.css" />
+        <link rel="stylesheet" href="../css/index.css" />
+        <link rel="stylesheet" href="../css/enderecos.css" />
+        <title>Agrosys</title>
+    </head>
+    <body>
+        <div id="headerHome">
+            <img id="logoHome" src="../imgs/brand agro logo.png" />
+
+            <div id="divBtnHeaderEnde">
+                <button
+                    class="btnHeadEnde"
+                    onclick="window.location.href='enderecos.html'"
+                >
+                    Voltar
+                </button>
+                <button
+                    class="btnHeadEnde"
+                    onclick="window.location.href='home.html'"
+                >
+                    Clientes
+                </button>
+            </div>
+        </div>
+
+        <div id="mainCadCli">
+            <p class="title">Cadastrar endereço</p>
+
+            <p class="labelLoginInd">CEP</p>
+            <input
+                class="inputUsuarioInd"
+                id="cepCadCli"
+                type="text"
+                maxlength="9"
+                placeholder="12345-678"
+            />
+
+            <p class="labelLoginInd">Rua</p>
+            <input
+                class="inputUsuarioInd"
+                id="ruaCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">Bairro</p>
+            <input
+                class="inputUsuarioInd"
+                id="bairroCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">Cidade</p>
+            <input
+                class="inputUsuarioInd"
+                id="cidadeCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">Estado</p>
+            <input
+                class="inputUsuarioInd"
+                id="estadoCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">País</p>
+            <input
+                class="inputUsuarioInd"
+                id="paisCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">Cliente</p>
+            <input
+                class="inputUsuarioInd"
+                id="clienteCadCli"
+                type="text"
+                maxlength="50"
+                disabled
+                style="background-color: white"
+            />
+
+            <div id="divCheckCadCli">
+                <input id="endPriCadCli" type="checkbox" />
+                <p>Endereço principal</p>
+            </div>
+            <div id="divCheckCadCli">
+                <input id="contCadCadCli" type="checkbox" />
+                <p>Continuar cadastrando</p>
+            </div>
+
+            <button id="btnCadCadCli">Cadastrar</button>
+            <div style="height: 25px"></div>
+        </div>
+
+        <script src="../js/randomCode.js"></script>
+        <script src="../js/cadastrarEndereco.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+    </body>
+</html>

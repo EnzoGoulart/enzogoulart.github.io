@@ -1,0 +1,71 @@
+.loginMainInd {
+    width: 90%;
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--Secondary);
+    border-radius: 12px;
+}
+
+.logoLoginInd {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 25px;
+}
+
+.labelLoginInd {
+    font-size: 18px;
+    padding: 5px 0px 5px 7%;
+    font-weight: bold;
+}
+
+.inputSenhaInd, .inputUsuarioInd {
+    margin-bottom: 15px;
+    height: 35px;
+    margin-left: 7%;
+    width: 75%;
+    border-radius: 12px;
+    padding-left: 20px;
+    color: black;
+    border: 2px solid white;
+}
+
+.inputSenhaInd:focus, .inputUsuarioInd:focus {
+    transition: border 3s;
+    border: 2px solid var(--Secondary);
+}
+
+#btnLoginInd{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px; 
+    width: 120px;
+    height: 40px; 
+    border-radius: 12px;
+    background-color: var(--Secondary);
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+    border: 1px solid white;
+}
+
+#btnLoginInd:hover{
+    transition: width 0.3s;
+    width: 80%;
+}
+
+#btnCadInd {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.spanCadastreseInd {
+    font-weight: bold;
+}

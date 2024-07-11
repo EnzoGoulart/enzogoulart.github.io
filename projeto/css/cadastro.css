@@ -1,0 +1,26 @@
+#btnLogCad{
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0px;
+    cursor: pointer; 
+} 
+
+#btnCadastroCad{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px; 
+    width: 120px;
+    height: 40px; 
+    border-radius: 12px;
+    background-color: var(--Secondary);
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+    border: 1px solid white;
+}
+
+#btnCadastroCad:hover{
+    transition: width 0.3s;
+    width: 80%;
+}

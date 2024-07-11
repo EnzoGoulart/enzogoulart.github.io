@@ -1,0 +1,77 @@
+#headerHome {
+    height: 45px;
+    background-color: var(--Secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#logoHome{
+    width: 120px;
+    margin-left: 5%;
+}
+
+#cadastrarClienteHome{
+    background-color: var(--Theme);
+    width: 140px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 5%;
+}
+
+#headerTabelaHome{
+    display: flex; 
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+#headerTabelaHome p:first-child{
+    padding: 3px;
+    width: 60%;
+    border-right: 1px solid white;
+}
+#headerTabelaHome p:nth-of-type(2){
+    padding: 3px;
+    width: 12%;
+    border-right: 1px solid white;
+}
+#headerTabelaHome p:nth-of-type(3){
+    padding: 3px; 
+}
+
+#headerDadoHome{
+    display: flex; 
+    border-bottom: 1px solid white;
+}
+#nomeDadoHome{
+    padding: 3px;
+    width: 60%;
+    border-right: 1px solid white;
+}
+#infoDadoHome{
+    padding: 3px;
+    width: 12%;
+    border-right: 1px solid white;
+    text-decoration: underline;
+}
+#endeDadoHome{
+    padding: 3px; 
+    text-decoration: underline; 
+}
+
+#divBtnHeaderHome{
+    display: flex;  
+    justify-content: flex-end;
+    width: 56%;
+    max-width: 250px;
+}
+
+.btnCadCliHome{
+    flex-grow: 1;
+    width: 150px;
+}
+
+.btnConfHome{ 
+    max-width: 20%;
+}

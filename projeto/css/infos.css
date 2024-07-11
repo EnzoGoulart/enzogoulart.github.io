@@ -1,0 +1,14 @@
+#altInfInfos, #delInfInfos{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px; 
+    width: 120px;
+    height: 40px; 
+    border-radius: 12px;
+    background-color: var(--Secondary);
+    font-size: 22px;
+    font-weight: bold;
+    color: white; 
+    border: 1px solid white;
+}

@@ -1,0 +1,23 @@
+#btnExpDbConf,
+#btnImpDbConf {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--Secondary);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+}
+
+#btnImpDbConf input {
+    position: absolute;
+    width: 100%;
+    transform: translate(-12.5%, -25%);
+    opacity: 0;
+    height: 100%;
+}

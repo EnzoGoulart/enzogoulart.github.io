@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.agrosys.com.br" type="image/png" />
+        <link rel="stylesheet" href="../css/config.css" />
+        <link rel="stylesheet" href="../css/home.css" />
+        <link rel="stylesheet" href="../css/enderecos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Agrosys</title>
+    </head>
+    <body>
+        <div id="headerHome">
+            <img id="logoHome" src="../imgs/brand agro logo.png" />
+
+            <div id="divBtnHeaderHome">
+                <button
+                    class="btnHeadEnde btnCadCliHome"
+                    onclick="window.location.href='cadastrarClientes.html'"
+                >
+                    Cadastrar clientes
+                </button>
+                <button
+                    class="btnHeadEnde btnConfHome"
+                    onclick="window.location.href='configuracoes.html'"
+                >
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+
+        <p class="title">Clientes</p>
+        <div id="headerTabelaHome">
+            <p>Nome</p>
+            <p>Infos</p>
+            <p>Endereços</p>
+        </div>
+        <div id="divDadosHome">
+        </div>
+        
+        <script src="../js/home.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+    </body>
+</html>

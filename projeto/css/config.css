@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --Theme: rgb(78, 173, 199);
+    --Secondary: #0c3a4f;
+    --Background: white; 
+    --Danger: #9c3a38;
+}
+
+body{
+    background-color: var(--Secondary);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "PT Sans";
+    color: white;
+    outline: none;
+}
+button{ 
+    cursor: pointer;
+}
+
+
+.title {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}

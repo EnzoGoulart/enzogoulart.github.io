@@ -1,0 +1,26 @@
+#divInfosInfo {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    
+}
+#divInfoInfo { 
+    border-bottom: 1px solid white;
+    padding: 15px;
+}
+
+#divInfoInfo:first-child{
+    border-top: 1px solid white; 
+}
+
+.btnHeadEnde { 
+    background-color: var(--Theme);
+    width: 80px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 6px;
+    margin-right: 5%;
+}
+
+#divBtnHeaderEnde{
+    display: flex;
+}

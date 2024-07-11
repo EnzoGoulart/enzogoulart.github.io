@@ -1,0 +1,31 @@
+Como rodar?
+1- Baixar a extensão Live Server
+2- Abrir o arquivo index.html em projeto/html/index.html
+3- Clicar com o botão direito do mouse em qualquer parte (na parte de dentro que está o código)
+4- Clicar em "Open with Live Server"
+
+Como Funciona?
+Você vai cair na pagina de login, para cadastrar clique no botão cadastre-se
+usuário e senha não possuem padrões, apenas não podem ser nulos e o usuário deve ser um nome 
+que ainda não esteja cadastrado
+
+Tela de clientes(home)
+Botão cadastrar clientes
+Botão configurações para exportar e importar DB
+Grid com nome, infos e endereços
+Para ver mais informações clique em Ver na linha correspondente
+Para cadastrar um endereço para um cliente clique em Ver na linha correspondente
+
+Informações
+Infos editaveis
+É possivel deletar o cliente
+
+Endereços
+Endereço principal fica destacado
+Outros abaixo
+Só é possivel ter 1 endereço principal, caso seja adicionado mais de um 
+o ultimo será o principal e os outros serão atualizados
+
+Check continuar cadastrando:
+Ativo: Campos serão limpos e será possivel cadastrar de novo
+Inativo: Redicionará para a tela clientes (home) após cadastro

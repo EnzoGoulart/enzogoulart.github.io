@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Agrosys</title>
+        <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.agrosys.com.br" type="image/png" />
+        <link rel="stylesheet" href="../css/config.css" />
+        <link rel="stylesheet" href="../css/infos.css" />
+        <link rel="stylesheet" href="../css/home.css" />
+        <link rel="stylesheet" href="../css/cadastrarClientes.css" />
+        <link rel="stylesheet" href="../css/index.css" />
+    </head>
+
+    <body>
+        <div id="headerHome">
+            <img id="logoHome" src="../imgs/brand agro logo.png" />
+
+            <button
+                id="cadastrarClienteHome"
+                onclick="window.location.href='home.html'"
+            >
+                Voltar
+            </button>
+        </div>
+
+        <p class="title">Informações</p>
+
+        <div id="mainCadCli">
+            <p class="labelLoginInd">Nome completo</p>
+            <input
+                class="inputUsuarioInd"
+                id="nomeCadCli"
+                type="text"
+                maxlength="50"
+            />
+
+            <p class="labelLoginInd">CPF</p>
+            <input
+                class="inputUsuarioInd"
+                id="cpfCadCli"
+                type="text"
+                maxlength="14"
+            />
+
+            <p class="labelLoginInd">Data de Nascimento</p>
+            <input
+                class="inputUsuarioInd"
+                id="dataCadCli"
+                type="text"
+                maxlength="10"
+            />
+
+            <p class="labelLoginInd">Telefone</p>
+            <input
+                class="inputUsuarioInd"
+                id="telefoneCadCli"
+                type="text"
+                maxlength="20"
+            />
+
+            <p class="labelLoginInd">Celular</p>
+            <input
+                class="inputUsuarioInd"
+                id="celularCadCli"
+                type="text"
+                maxlength="20" 
+            />
+
+            <button id="altInfInfos">Alterar</button><br/>
+            <button id="delInfInfos">Deletar</button> 
+            <div style="height: 25px"></div>
+        </div>
+        <script src="../js/infos.js"></script>
+        <script src="../js/randomCode.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alasql"></script>
+    </body>
+</html>
